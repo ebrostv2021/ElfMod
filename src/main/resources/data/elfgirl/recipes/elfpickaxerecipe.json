@@ -1,0 +1,16 @@
+{
+  "group": "elfgirl",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elfgirl:elf_gold"
+    },
+    {
+      "item": "minecraft:golden_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "elfgirl:elf_pickaxe",
+    "count": 1
+  }
+}

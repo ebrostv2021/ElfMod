@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "clock_02",
+    "name": "Elfmusic",
+    "description": "Elf Music",
+    "creativeTab": {
+      "value": "CUSTOM:Elfgirl"
+    },
+    "music": {
+      "value": "CUSTOM:elf"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "golden_hoe",
+    "customModelName": "Normal",
+    "name": "Elf Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Elfgirl"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 10,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

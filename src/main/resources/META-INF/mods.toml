@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Custom license"
+
+[[mods]]
+modId="elfgirl"
+version="1.0.0"
+displayName="ElfGirl"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://gamingforlife.eu"
+authors="eBrosTV"
+
+[[dependencies.elfgirl]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.elfgirl]]
+    modId="mcreator_link"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

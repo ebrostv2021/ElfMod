@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elfgirl:blocks/jungle_planks",
+    "particle": "elfgirl:blocks/jungle_planks"
+  }
+}

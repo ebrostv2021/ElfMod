@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elfgirl:blocks/jungle_log_top",
+    "up": "elfgirl:blocks/jungle_log_top",
+    "north": "elfgirl:blocks/jungle_log",
+    "east": "elfgirl:blocks/jungle_log",
+    "south": "elfgirl:blocks/jungle_log",
+    "west": "elfgirl:blocks/jungle_log",
+    "particle": "elfgirl:blocks/jungle_log_top"
+  }
+}
