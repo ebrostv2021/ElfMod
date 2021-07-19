@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.elfworld.block.ElfLeafBlock;
+import net.mcreator.elfworld.item.ElfmusicItem;
 import net.mcreator.elfworld.ElfworldModElements;
 
 @ElfworldModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class ElfgirlItemGroup extends ElfworldModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ElfLeafBlock.block, (int) (1));
+				return new ItemStack(ElfmusicItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

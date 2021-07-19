@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "elfworld:blocks/elfwood_planks",
+    "particle": "elfworld:blocks/elfwood_planks"
+  }
+}

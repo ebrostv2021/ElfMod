@@ -1,0 +1,39 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:elf_planks"
+    },
+    "1": {
+      "item": "elfworld:elf_planks"
+    },
+    "2": {
+      "item": "elfworld:elf_planks"
+    },
+    "3": {
+      "item": "elfworld:elf_planks"
+    },
+    "5": {
+      "item": "elfworld:elf_planks"
+    },
+    "6": {
+      "item": "elfworld:elf_planks"
+    },
+    "7": {
+      "item": "elfworld:elf_planks"
+    },
+    "8": {
+      "item": "elfworld:elf_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 1
+  }
+}

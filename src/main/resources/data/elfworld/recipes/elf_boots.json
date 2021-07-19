@@ -1,0 +1,26 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:elf_gold"
+    },
+    "2": {
+      "item": "elfworld:elf_gold"
+    },
+    "3": {
+      "item": "elfworld:elf_gold"
+    },
+    "5": {
+      "item": "elfworld:elf_gold"
+    }
+  },
+  "result": {
+    "item": "elfworld:elf_plate_boots",
+    "count": 1
+  }
+}

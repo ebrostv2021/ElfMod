@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elfworld:blocks/elfwood_log_side",
+    "particle": "elfworld:blocks/elfwood_log_side"
+  }
+}

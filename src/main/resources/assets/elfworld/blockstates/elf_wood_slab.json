@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elfworld:block/elf_wood_slab"
+    },
+    "type=top": {
+      "model": "elfworld:block/elf_wood_slab_top"
+    },
+    "type=double": {
+      "model": "elfworld:block/elf_wood_slab_full"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:elf_wood_log"
+    },
+    "1": {
+      "item": "elfworld:elf_wood_log"
+    },
+    "2": {
+      "item": "elfworld:elf_wood_log"
+    },
+    "3": {
+      "item": "elfworld:elf_wood_log"
+    }
+  },
+  "result": {
+    "item": "elfworld:elf_wood_wood",
+    "count": 3
+  }
+}

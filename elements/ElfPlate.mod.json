@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "golden_helmet",
+    "enableBody": true,
+    "textureBody": "golden_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "golden_leggings",
+    "enableBoots": true,
+    "textureBoots": "golden_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Elfgirl"
+    },
+    "armorTextureFile": "gold_",
+    "helmetName": "Elf Plate Helm",
+    "bodyName": "Elf Plate Körper",
+    "leggingsName": "Elf Plate Beinschutz",
+    "bootsName": "Elf Plate Stiefel",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": "item.armor.equip_gold"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElfGold"
+      }
+    ]
+  }
+}

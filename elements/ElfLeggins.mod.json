@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElfGold"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElfPlate.legs"
+    },
+    "name": "elf_leggins",
+    "namespace": "mod"
+  }
+}
