@@ -18,7 +18,7 @@
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -6750055,
+      "value": -39169,
       "falpha": 0.0
     },
     "waterColor": {
@@ -74,7 +74,7 @@
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
-    "maxWaterDepth": 0,
+    "maxWaterDepth": 5,
     "treeStem": {
       "value": "CUSTOM:ElfWoodLog"
     },

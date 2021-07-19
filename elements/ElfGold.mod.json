@@ -8,7 +8,7 @@
     "name": "Elf Gold",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Elfgirl"
     },
     "stackSize": 64,
     "enchantability": 0,

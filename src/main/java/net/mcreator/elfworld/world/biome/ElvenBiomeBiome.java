@@ -69,7 +69,7 @@ public class ElvenBiomeBiome extends ElfworldModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6710785).setWaterColor(-6710785).setWaterFogColor(-6710785)
-						.withSkyColor(-6710785).withFoliageColor(-6750055).withGrassColor(-3381505)
+						.withSkyColor(-6710785).withFoliageColor(-39169).withGrassColor(-3381505)
 						.setMusic(new BackgroundMusicSelector(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("elfworld:elf")), 12000,
 								24000, true))
@@ -83,7 +83,7 @@ public class ElvenBiomeBiome extends ElfworldModElements.ModElement {
 								new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
 								new StraightTrunkPlacer(7, 2, 0), new TwoLayerFeature(1, 0, 1)))
 										.setDecorators(ImmutableList.of(CustomLeaveVineTreeDecorator.instance, CustomTrunkVineTreeDecorator.instance))
-										.setMaxWaterDepth(0).build())
+										.setMaxWaterDepth(5).build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,

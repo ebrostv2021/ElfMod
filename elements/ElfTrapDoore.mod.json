@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "gold_ore",
+    "texture": "jungle_trapdoor",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,9 +15,10 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "TrapDoor",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -32,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Elf Ore",
+    "name": "Elf Trap Doore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 1.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -43,16 +44,16 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:ElfRawGold"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "WOOD"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -101,31 +102,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:ElvenBiome"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 16
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

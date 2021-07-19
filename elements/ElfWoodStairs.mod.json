@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "elfwood_planks",
-    "textureTop": "elfwood_planks",
+    "texture": "jungle_planks",
+    "textureTop": "jungle_planks",
     "textureLeft": "",
-    "textureFront": "elfwood_planks",
+    "textureFront": "jungle_planks",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

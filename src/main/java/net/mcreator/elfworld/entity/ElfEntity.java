@@ -24,6 +24,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.TameableEntity;
 import net.minecraft.entity.ai.goal.TemptGoal;
@@ -56,7 +57,7 @@ import net.mcreator.elfworld.ElfworldModElements;
 @ElfworldModElements.ModElement.Tag
 public class ElfEntity extends ElfworldModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.6f, 1.8f)).build("elf").setRegistryName("elf");
 	public ElfEntity(ElfworldModElements instance) {
 		super(instance, 2);
@@ -143,9 +144,13 @@ public class ElfEntity extends ElfworldModElements.ModElement {
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source.getImmediateSource() instanceof ArrowEntity)
+				return false;
 			if (source == DamageSource.FALL)
 				return false;
 			if (source == DamageSource.DROWN)
+				return false;
+			if (source.getDamageType().equals("trident"))
 				return false;
 			if (source == DamageSource.WITHER)
 				return false;

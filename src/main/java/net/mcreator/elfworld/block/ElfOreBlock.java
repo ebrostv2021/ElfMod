@@ -80,6 +80,12 @@ public class ElfOreBlock extends ElfworldModElements.ModElement {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE.getDefaultState().getBlock())
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -104,8 +110,8 @@ public class ElfOreBlock extends ElfworldModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(40)
-					.square().func_242731_b(11);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(16)
+					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("elf_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("elfworld:elf_ore"), configuredFeature);
 		}
@@ -113,7 +119,7 @@ public class ElfOreBlock extends ElfworldModElements.ModElement {
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
-		if (new ResourceLocation("elfworld:elf_biom").equals(event.getName()))
+		if (new ResourceLocation("elfworld:elven_biome").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;

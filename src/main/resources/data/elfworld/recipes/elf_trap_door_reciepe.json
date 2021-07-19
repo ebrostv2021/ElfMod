@@ -1,0 +1,32 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:elf_wood_planks"
+    },
+    "1": {
+      "item": "elfworld:elf_wood_planks"
+    },
+    "2": {
+      "item": "elfworld:elf_wood_planks"
+    },
+    "3": {
+      "item": "elfworld:elf_wood_planks"
+    },
+    "4": {
+      "item": "elfworld:elf_wood_planks"
+    },
+    "5": {
+      "item": "elfworld:elf_wood_planks"
+    }
+  },
+  "result": {
+    "item": "elfworld:elf_trap_doore",
+    "count": 1
+  }
+}

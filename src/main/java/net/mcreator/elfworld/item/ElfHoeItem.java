@@ -27,7 +27,7 @@ public class ElfHoeItem extends ElfworldModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
@@ -35,11 +35,11 @@ public class ElfHoeItem extends ElfworldModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 10;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {

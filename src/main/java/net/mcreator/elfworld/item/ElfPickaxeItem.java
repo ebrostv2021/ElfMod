@@ -27,7 +27,7 @@ public class ElfPickaxeItem extends ElfworldModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 6f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
