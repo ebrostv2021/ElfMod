@@ -111,7 +111,7 @@ public class ElfOreBlock extends ElfworldModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(16)
-					.square().func_242731_b(1);
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("elf_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("elfworld:elf_ore"), configuredFeature);
 		}

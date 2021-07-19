@@ -3,11 +3,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "elfworld:elf_log"
+      "item": "elfworld:elf_wood_planks"
+    },
+    {
+      "item": "elfworld:elf_wood_planks"
+    },
+    {
+      "item": "elfworld:elf_wood_planks"
     }
   ],
   "result": {
-    "item": "elfworld:elf_planks",
+    "item": "elfworld:elf_wood_slab",
     "count": 4
   }
 }

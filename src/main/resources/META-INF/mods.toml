@@ -19,11 +19,5 @@ authors="eBrosTV"
     side="BOTH"
 
 
-[[dependencies.elfworld]]
-    modId="mcreator_link"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 

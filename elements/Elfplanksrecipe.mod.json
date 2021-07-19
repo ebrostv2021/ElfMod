@@ -28,17 +28,17 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:ElfWoodPlanks"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ElfWoodPlanks"
       },
       {
-        "value": "CUSTOM:ElfLog"
+        "value": "CUSTOM:ElfWoodPlanks"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ElfPlanks"
+      "value": "CUSTOM:ElfWoodSlab"
     },
     "name": "elfplanksrecipe",
     "namespace": "mod"
