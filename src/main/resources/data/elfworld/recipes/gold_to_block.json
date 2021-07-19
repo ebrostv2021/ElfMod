@@ -1,0 +1,42 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:elf_gold"
+    },
+    "1": {
+      "item": "elfworld:elf_gold"
+    },
+    "2": {
+      "item": "elfworld:elf_gold"
+    },
+    "3": {
+      "item": "elfworld:elf_gold"
+    },
+    "4": {
+      "item": "elfworld:elf_gold"
+    },
+    "5": {
+      "item": "elfworld:elf_gold"
+    },
+    "6": {
+      "item": "elfworld:elf_gold"
+    },
+    "7": {
+      "item": "elfworld:elf_gold"
+    },
+    "8": {
+      "item": "elfworld:elf_gold"
+    }
+  },
+  "result": {
+    "item": "elfworld:elf_god_block",
+    "count": 1
+  }
+}

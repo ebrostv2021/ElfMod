@@ -2,8 +2,8 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "jungle_door_bottom",
-    "textureTop": "jungle_door_top",
+    "texture": "pixie_ore",
+    "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -13,14 +13,13 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "jungle_door",
+    "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Door",
     "tintType": "No tint",
-    "isItemTinted": true,
-    "hasTransparency": true,
+    "isItemTinted": false,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,27 +32,27 @@
         "subtract": false
       }
     ],
-    "name": "Elf Wood Door",
+    "name": "Pixie Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Elfgirl"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:PixieDust"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,11 +72,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -102,16 +101,22 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ElvenBiome"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 16
   }
 }

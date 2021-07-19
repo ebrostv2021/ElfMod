@@ -1,0 +1,42 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:pixie_dust"
+    },
+    "1": {
+      "item": "elfworld:pixie_dust"
+    },
+    "2": {
+      "item": "elfworld:pixie_dust"
+    },
+    "3": {
+      "item": "elfworld:pixie_dust"
+    },
+    "4": {
+      "item": "elfworld:pixie_dust"
+    },
+    "5": {
+      "item": "elfworld:pixie_dust"
+    },
+    "6": {
+      "item": "elfworld:pixie_dust"
+    },
+    "7": {
+      "item": "elfworld:pixie_dust"
+    },
+    "8": {
+      "item": "elfworld:pixie_dust"
+    }
+  },
+  "result": {
+    "item": "elfworld:pixie_block",
+    "count": 1
+  }
+}

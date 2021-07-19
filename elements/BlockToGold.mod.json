@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 9,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
@@ -22,7 +22,10 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -31,16 +34,13 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:ElfGodBlock"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.STICK"
+      "value": "CUSTOM:ElfGold"
     },
-    "name": "stick",
+    "name": "block_to_gold",
     "namespace": "mod"
   }
 }

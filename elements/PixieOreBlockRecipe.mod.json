@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": ""
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:PixieDust"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CHEST"
+      "value": "CUSTOM:PixieBlock"
     },
-    "name": "chest",
+    "name": "pixie_ore_block_recipe",
     "namespace": "mod"
   }
 }

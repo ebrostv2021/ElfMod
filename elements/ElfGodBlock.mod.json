@@ -2,8 +2,8 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "jungle_door_bottom",
-    "textureTop": "jungle_door_top",
+    "texture": "gold_block",
+    "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -13,14 +13,13 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "jungle_door",
+    "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Door",
     "tintType": "No tint",
-    "isItemTinted": true,
-    "hasTransparency": true,
+    "isItemTinted": false,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Elf Wood Door",
+    "name": "Elf God Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -42,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:Elfgirl"
     },
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -51,9 +50,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GROUND"
     },
     "luminance": 0,
     "unbreakable": false,

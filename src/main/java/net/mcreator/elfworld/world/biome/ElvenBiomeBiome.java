@@ -68,8 +68,8 @@ public class ElvenBiomeBiome extends ElfworldModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-26113).setWaterColor(-6710785).setWaterFogColor(-6710785)
-						.withSkyColor(-26113).withFoliageColor(-6750055).withGrassColor(-3381505)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-6710785).setWaterColor(-6710785).setWaterFogColor(-6710785)
+						.withSkyColor(-6710785).withFoliageColor(-6750055).withGrassColor(-3381505)
 						.setMusic(new BackgroundMusicSelector(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("elfworld:elf")), 12000,
 								24000, true))

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       },
       {
-        "value": "CUSTOM:ElfWoodPlanks"
+        "value": "CUSTOM:ElfGold"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CHEST"
+      "value": "CUSTOM:ElfGodBlock"
     },
-    "name": "chest",
+    "name": "gold_to_block",
     "namespace": "mod"
   }
 }

@@ -2,8 +2,8 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "jungle_door_bottom",
-    "textureTop": "jungle_door_top",
+    "texture": "pixie_ore_block",
+    "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -13,14 +13,13 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "jungle_door",
+    "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Door",
     "tintType": "No tint",
-    "isItemTinted": true,
-    "hasTransparency": true,
+    "isItemTinted": false,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Elf Wood Door",
+    "name": "Block of Pixie",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Elfgirl"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -51,9 +50,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -73,11 +72,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

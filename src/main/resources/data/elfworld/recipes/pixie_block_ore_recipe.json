@@ -1,0 +1,13 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elfworld:pixie_block"
+    }
+  ],
+  "result": {
+    "item": "elfworld:pixie_dust",
+    "count": 9
+  }
+}
