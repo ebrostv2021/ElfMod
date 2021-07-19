@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elfworld:blocks/gold_ore",
+    "particle": "elfworld:blocks/gold_ore"
+  }
+}

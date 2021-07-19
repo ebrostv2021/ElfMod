@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elfworld:blocks/jungle_log_top",
+    "up": "elfworld:blocks/jungle_log_top",
+    "north": "elfworld:blocks/jungle_log",
+    "east": "elfworld:blocks/jungle_log",
+    "south": "elfworld:blocks/jungle_log",
+    "west": "elfworld:blocks/jungle_log",
+    "particle": "elfworld:blocks/jungle_log_top"
+  }
+}

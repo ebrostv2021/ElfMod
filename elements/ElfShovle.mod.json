@@ -8,10 +8,10 @@
     "name": "Elf Shovle",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Elfgirl"
     },
     "toolType": "Spade",
-    "harvestLevel": 1,
+    "harvestLevel": 4,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,

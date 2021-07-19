@@ -1,0 +1,391 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Elfgirl",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elfgirl"
+    },
+    {
+      "name": "Elf",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf"
+    },
+    {
+      "name": "ElfGui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_gui"
+    },
+    {
+      "name": "ElfBiom",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_biom"
+    },
+    {
+      "name": "ElfLog",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_log",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfLeaf",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_leaf",
+      "path": "~/Items"
+    },
+    {
+      "name": "Elfmusic",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elfmusic"
+    },
+    {
+      "name": "ElfPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_pickaxe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfHoe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_hoe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfGold",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_gold",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfPlanks",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_planks",
+      "path": "~/Items"
+    },
+    {
+      "name": "Elfplanksrecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elfplanksrecipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "Elfpickaxerecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elfpickaxerecipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "Elfhoereciepe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elfhoereciepe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfAxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_axe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfSlap",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_slap",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfWoodStears",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_wood_stears",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfRawGold",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_raw_gold",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_axe_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfShovle",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_shovle",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfGuiWennDasGUIGeoffnetWird",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_gui_wenn_das_gui_geoffnet_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElfOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_ore",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfGoldApple",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_gold_apple",
+      "path": "~/Items"
+    },
+    {
+      "name": "Appledrop",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "appledrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElfShovleRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_shovle_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_sword",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElfSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elf_sword_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "ElvenMa",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elven_ma",
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "test",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "elf",
+      "files": [
+        "lands-of-magic-b5kosgoqvke"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.elfgirl.elf_gold": "Eleven Gold",
+      "block.elfworld.elf_planks": "Elf Planks",
+      "item.elfworld.elf_pickaxe": "Elf Pickaxe",
+      "item.elfgirl.elf_spawn_egg": "Eleven Girl Spawn Egg",
+      "block.elfgirl.elf_ore": "Eleven Ore",
+      "item.elfworld.elf_axe": "Elf Axe",
+      "block.elfworld.elf_ore": "Elf Ore",
+      "item.elfworld.elf_gold": "Eleven Gold",
+      "item.elfgirl.elf_shovle": "Eleven Shovle",
+      "block.elfgirl.elf_slap": "Eleven Slap",
+      "subtitles.elf": "",
+      "item.elfgirl.elf_raw_gold": "Raw Eleven Gold",
+      "biome.elfworld.elf_biom": "Elven Biome",
+      "itemGroup.tabelfgirl": "Elven Forest",
+      "item.elfgirl.elf_pickaxe": "Eleven Pickaxe",
+      "item.elfgirl.elf_axe": "Eleven Axe",
+      "item.elfworld.elf_shovle": "Elf Shovle",
+      "item.elfgirl.elfmusic.desc": "Eleven Music",
+      "entity.elfworld.elf": "Elf Girl",
+      "block.elfgirl.elf_wood_stears": "Eleven Wood Stears",
+      "item.elfworld.elf_gold_apple": "Eleven Golden Apple",
+      "item.elfworld.elf_spawn_egg": "Elf Girl Spawn Egg",
+      "block.elfgirl.elf_planks": "Eleven Planks",
+      "item.elfworld.elfmusic.desc": "Elf Music",
+      "block.elfworld.elf_log": "Eleven Log",
+      "block.elfworld.elf_slap": "Eleven Slap",
+      "item.elfgirl.elf_sword": "Eleven Sword",
+      "item.elfgirl.elfmusic": "Eleven Music",
+      "item.elfgirl.elf_hoe": "Eleven Hoe",
+      "entity.elfgirl.elf": "Eleven Girl",
+      "item.elfworld.elfmusic": "Elfmusic",
+      "item.elfgirl.elf_gold_apple": "Eleven Gold Apple",
+      "block.elfgirl.elf_log": "Eleven Log",
+      "block.elfgirl.elf_leaf": "Eleven Leaf",
+      "item.elfworld.elf_hoe": "Elf Hoe",
+      "item.elfworld.elf_raw_gold": "Raw Eleven  Gold",
+      "item.elfworld.elf_sword": "Elf Sword",
+      "block.elfworld.elf_wood_stears": "Eleven Wood Stears",
+      "biome.elfgirl.elf_biom": "Eleven Biom",
+      "block.elfworld.elf_leaf": "Elf Leaf"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Prozedur",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "elfworld",
+    "modName": "World of Elf",
+    "version": "1.0.0",
+    "author": "eBrosTV",
+    "websiteURL": "https://gamingforlife.eu",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "the_elven_forest",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "this mod is WIP",
+    "modElementsPackage": "net.mcreator.elfworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

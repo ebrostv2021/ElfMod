@@ -3,14 +3,15 @@ loaderVersion="[36,)"
 license="Custom license"
 
 [[mods]]
-modId="elfgirl"
+modId="elfworld"
 version="1.0.0"
-displayName="ElfGirl"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayName="World of Elf"
+credits="this mod is WIP"
 displayURL="https://gamingforlife.eu"
+logoFile="logo.png"
 authors="eBrosTV"
 
-[[dependencies.elfgirl]]
+[[dependencies.elfworld]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
@@ -18,7 +19,7 @@ authors="eBrosTV"
     side="BOTH"
 
 
-[[dependencies.elfgirl]]
+[[dependencies.elfworld]]
     modId="mcreator_link"
     mandatory=true
     versionRange="[0,)"

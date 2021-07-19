@@ -1,0 +1,13 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elfworld:elf_log"
+    }
+  ],
+  "result": {
+    "item": "elfworld:elf_planks",
+    "count": 4
+  }
+}

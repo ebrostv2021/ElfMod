@@ -1,0 +1,11 @@
+{
+  "elf": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "elfworld:lands-of-magic-b5kosgoqvke",
+        "stream": false
+      }
+    ]
+  }
+}

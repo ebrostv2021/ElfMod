@@ -7,38 +7,38 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:ElfGold"
+      },
+      {
+        "value": "CUSTOM:ElfGold"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:ElfGold"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.GOLDEN_SHOVEL"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ElfHoe"
+      "value": "CUSTOM:ElfAxe"
     },
     "name": "elf_axe_recipe",
     "namespace": "mod"

@@ -2,9 +2,9 @@
   "_fv": 18,
   "_type": "tab",
   "definition": {
-    "name": "Elfgirl",
+    "name": "Elven Forest",
     "icon": {
-      "value": "Blocks.LEAVES2#1"
+      "value": "CUSTOM:ElfLeaf"
     },
     "showSearch": true
   }

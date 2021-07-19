@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "elfworld:blocks/jungle_planks",
+    "top": "elfworld:blocks/jungle_planks",
+    "side": "elfworld:blocks/jungle_planks"
+  }
+}

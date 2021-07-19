@@ -8,12 +8,12 @@
     "name": "Elf Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Elfgirl"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 1,
+    "toolType": "Axe",
+    "harvestLevel": 4,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 9.299999999999999,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 100,

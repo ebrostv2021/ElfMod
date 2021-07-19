@@ -1,0 +1,27 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:elf_gold"
+    },
+    "1": {
+      "item": "elfworld:elf_gold"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "elfworld:elf_hoe",
+    "count": 1
+  }
+}
