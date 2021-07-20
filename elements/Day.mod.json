@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "command",
+  "definition": {
+    "commandName": "day",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "TimeSetDay"
+    }
+  }
+}

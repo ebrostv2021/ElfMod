@@ -61,7 +61,7 @@
     "biomeDictionaryTypes": [
       "OVERWORLD"
     ],
-    "grassPerChunk": 4,
+    "grassPerChunk": 3,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 1,
@@ -70,7 +70,7 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 3,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
@@ -90,7 +90,7 @@
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -161,6 +161,15 @@
       {
         "entity": {
           "value": "EntitySlime"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
         },
         "minGroup": 4,
         "maxGroup": 4,
