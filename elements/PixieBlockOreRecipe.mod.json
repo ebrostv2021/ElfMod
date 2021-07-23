@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PixieDust"
+      "value": "CUSTOM:Pixie"
     },
     "name": "pixie_block_ore_recipe",
     "namespace": "mod"

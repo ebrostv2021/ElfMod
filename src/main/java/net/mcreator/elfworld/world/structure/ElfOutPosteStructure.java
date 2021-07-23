@@ -31,9 +31,12 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.elfworld.procedures.SpawneEldProcedure;
 import net.mcreator.elfworld.ElfworldModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @ElfworldModElements.ModElement.Tag
 public class ElfOutPosteStructure extends ElfworldModElements.ModElement {
@@ -58,7 +61,7 @@ public class ElfOutPosteStructure extends ElfworldModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 10000) {
+					if ((random.nextInt(1000000) + 1) <= 2500) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -73,18 +76,26 @@ public class ElfOutPosteStructure extends ElfworldModElements.ModElement {
 								continue;
 							Rotation rotation = Rotation.NONE;
 							Mirror mirror = Mirror.NONE;
-							BlockPos spawnTo = new BlockPos(i + 0, j + -2, k + 0);
+							BlockPos spawnTo = new BlockPos(i + 0, j + -1, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("elfworld", "eleves_outposte"));
+									.getTemplateDefaulted(new ResourceLocation("elfworld", "eleven_outposte"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
 									new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
 											.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
 									random);
+							{
+								Map<String, Object> $_dependencies = new HashMap<>();
+								$_dependencies.put("x", x);
+								$_dependencies.put("y", y);
+								$_dependencies.put("z", z);
+								$_dependencies.put("world", world);
+								SpawneEldProcedure.executeProcedure($_dependencies);
+							}
 						}
 					}
 					return true;

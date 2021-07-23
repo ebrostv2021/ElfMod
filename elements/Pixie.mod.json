@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pixie_dust",
+    "texture": "pixie_gem",
     "customModelName": "Normal",
-    "name": "Pixie Dust",
-    "rarity": "RARE",
+    "name": "Pixie Gem",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:Elfgirl"
     },

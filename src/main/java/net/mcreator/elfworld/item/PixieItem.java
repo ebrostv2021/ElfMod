@@ -12,11 +12,11 @@ import net.mcreator.elfworld.itemgroup.ElfgirlItemGroup;
 import net.mcreator.elfworld.ElfworldModElements;
 
 @ElfworldModElements.ModElement.Tag
-public class PixieDustItem extends ElfworldModElements.ModElement {
-	@ObjectHolder("elfworld:pixie_dust")
+public class PixieItem extends ElfworldModElements.ModElement {
+	@ObjectHolder("elfworld:pixie")
 	public static final Item block = null;
-	public PixieDustItem(ElfworldModElements instance) {
-		super(instance, 55);
+	public PixieItem(ElfworldModElements instance) {
+		super(instance, 93);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class PixieDustItem extends ElfworldModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ElfgirlItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("pixie_dust");
+			super(new Item.Properties().group(ElfgirlItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
+			setRegistryName("pixie");
 		}
 
 		@Override

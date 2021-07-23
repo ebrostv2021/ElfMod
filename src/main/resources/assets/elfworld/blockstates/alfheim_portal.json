@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "elfworld:block/alfheim_portal_ew"
+    },
+    "axis=x": {
+      "model": "elfworld:block/alfheim_portal_ns"
+    }
+  }
+}

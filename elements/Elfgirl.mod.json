@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "tab",
   "definition": {
-    "name": "Elven Forest",
+    "name": "Eelven Forest",
     "icon": {
-      "value": "CUSTOM:Elfmusic"
+      "value": "CUSTOM:ElfSword"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

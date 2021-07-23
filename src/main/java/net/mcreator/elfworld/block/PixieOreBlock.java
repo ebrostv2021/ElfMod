@@ -35,7 +35,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.elfworld.itemgroup.ElfgirlItemGroup;
-import net.mcreator.elfworld.item.PixieDustItem;
+import net.mcreator.elfworld.item.PixieItem;
 import net.mcreator.elfworld.ElfworldModElements;
 
 import java.util.Random;
@@ -47,7 +47,7 @@ public class PixieOreBlock extends ElfworldModElements.ModElement {
 	@ObjectHolder("elfworld:pixie_ore")
 	public static final Block block = null;
 	public PixieOreBlock(ElfworldModElements instance) {
-		super(instance, 56);
+		super(instance, 94);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -69,7 +69,7 @@ public class PixieOreBlock extends ElfworldModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(PixieDustItem.block, (int) (3)));
+			return Collections.singletonList(new ItemStack(PixieItem.block, (int) (1)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -106,19 +106,14 @@ public class PixieOreBlock extends ElfworldModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(16)
-					.square().func_242731_b(8);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(63)
+					.square().func_242731_b(11);
 			event.getRegistry().register(feature.setRegistryName("pixie_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("elfworld:pixie_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		boolean biomeCriteria = false;
-		if (new ResourceLocation("elfworld:elven_biome").equals(event.getName()))
-			biomeCriteria = true;
-		if (!biomeCriteria)
-			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

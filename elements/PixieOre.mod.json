@@ -43,9 +43,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:PixieDust"
+      "value": "CUSTOM:Pixie"
     },
-    "dropAmount": 3,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -104,19 +104,15 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:ElvenBiome"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 8,
+    "frequencyPerChunks": 11,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 16
+    "maxGenerateHeight": 63
   }
 }

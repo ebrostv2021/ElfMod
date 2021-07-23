@@ -1,0 +1,26 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "2": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "3": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "5": {
+      "item": "elfworld:dwarfs_ingot"
+    }
+  },
+  "result": {
+    "item": "elfworld:dwarfs_armor_boots",
+    "count": 1
+  }
+}

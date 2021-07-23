@@ -1,0 +1,12 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:smelting",
+  "experience": 1.0499999999999998,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "elfworld:dwarfs_ore"
+  },
+  "result": {
+    "item": "elfworld:dwarfs_ingot"
+  }
+}

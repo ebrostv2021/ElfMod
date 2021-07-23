@@ -1,0 +1,29 @@
+{
+  "group": "elfworld",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "1": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "2": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "3": {
+      "item": "elfworld:dwarfs_ingot"
+    },
+    "5": {
+      "item": "elfworld:dwarfs_ingot"
+    }
+  },
+  "result": {
+    "item": "elfworld:dwarfs_armor_helmet",
+    "count": 1
+  }
+}

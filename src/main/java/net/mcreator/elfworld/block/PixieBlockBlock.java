@@ -24,7 +24,7 @@ public class PixieBlockBlock extends ElfworldModElements.ModElement {
 	@ObjectHolder("elfworld:pixie_block")
 	public static final Block block = null;
 	public PixieBlockBlock(ElfworldModElements instance) {
-		super(instance, 57);
+		super(instance, 95);
 	}
 
 	@Override

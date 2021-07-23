@@ -2,7 +2,6 @@
 package net.mcreator.elfworld.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.IBlockReader;
@@ -38,8 +37,7 @@ public class ElfWoodWoodBlock extends ElfworldModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0));
 			setRegistryName("elf_wood_wood");
 		}
 
