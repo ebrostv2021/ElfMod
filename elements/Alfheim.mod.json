@@ -8,6 +8,9 @@
       },
       {
         "value": "CUSTOM:DwarfMountainBiome"
+      },
+      {
+        "value": "CUSTOM:PixieForest"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -38,7 +41,7 @@
     "igniterTab": {
       "value": "CUSTOM:Elfgirl"
     },
-    "texture": "dwarfs_axe",
+    "texture": "flintandstealpink",
     "portalTexture": "nether_portal4",
     "enablePortal": true
   }

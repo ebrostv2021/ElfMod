@@ -961,6 +961,52 @@
       "ids": {},
       "registry_name": "pixie_forest",
       "path": "~/Prozedur/Biome"
+    },
+    {
+      "name": "DiamondD",
+      "type": "dimension",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_d",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Prozedur/Biome/Diamond Dimension"
+    },
+    {
+      "name": "DiamondTa",
+      "type": "tab",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_ta",
+      "path": "~/Prozedur/Biome/Diamond Dimension"
+    },
+    {
+      "name": "NetherBiome",
+      "type": "dimension",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "nether_biome",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Prozedur/Biome/Diamond Dimension"
+    },
+    {
+      "name": "Creepey",
+      "type": "mob",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creepey",
+      "path": "~/Entitys"
     }
   ],
   "variable_elements": [
@@ -1010,6 +1056,7 @@
       "entity.elfworld.elf": "Eleven Girl",
       "block.elfgirl.elf_wood_stears": "Eleven Wood Stears",
       "item.elfworld.elf_gold_apple": "Eleven Gold Apple",
+      "entity.elfworld.creepey": "Creepey",
       "item.elfworld.elf_spawn_egg": "Eleven Girl Spawn Egg",
       "block.elfgirl.elf_planks": "Eleven Planks",
       "item.elfworld.elfmusic.desc": "Eleven Music Disc",
@@ -1017,6 +1064,7 @@
       "item.elfgirl.elf_sword": "Eleven Gold Sword",
       "item.elfgirl.elf_hoe": "Eleven Gold Hoe",
       "block.elfworld.elf_wood_planks": "Eleven Wood Planks",
+      "item.elfworld.nether_biome": "Diamond D Portal Igniter",
       "block.elfworld.dwarfs_block": "Block of Dwarfs Ingot",
       "item.elfworld.elf_hoe": "Eleven Gold Hoe",
       "item.elfworld.elf_sword": "Eleven Gold Sword",
@@ -1034,10 +1082,13 @@
       "biome.elfworld.dwarf_mountain_biome": "Dwarf Mountain",
       "subtitles.elf": "Eleven",
       "item.elfworld.dwarfs_armor_helmet": "Dwarfs Helmet",
+      "item.elfworld.creepey_spawn_egg": "Creepey Spawn Egg",
       "item.elfworld.pixie": "Pixie Gem",
+      "itemGroup.tabdiamond_ta": "Dimension (only Creativ)",
       "itemGroup.tabelfgirl": "Eelven Forest",
       "item.elfgirl.elf_pickaxe": "Eleven Gold Pickaxe",
       "itemGroup.tabdwarf_mountain": "Dwarf Mountain",
+      "item.elfworld.diamond_d": "Diamond D Portal Igniter",
       "item.elfgirl.elf_axe": "Eleven Gold Axe",
       "item.elfworld.elf_plate_leggings": "Eleven Gold Leggins",
       "block.elfworld.elf_wood_log": "Eleven Wood Log",
@@ -1086,7 +1137,12 @@
         "children": [
           {
             "name": "Biome",
-            "children": []
+            "children": [
+              {
+                "name": "Diamond Dimension",
+                "children": []
+              }
+            ]
           }
         ]
       },

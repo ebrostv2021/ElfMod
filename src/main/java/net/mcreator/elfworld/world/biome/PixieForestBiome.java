@@ -5,6 +5,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.trunkplacer.StraightTrunkPlacer;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
@@ -28,6 +29,9 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.util.RegistryKey;
 import net.minecraft.block.HugeMushroomBlock;
 import net.minecraft.block.Blocks;
 
@@ -97,5 +101,6 @@ public class PixieForestBiome extends ElfworldModElements.ModElement {
 	}
 	@Override
 	public void init(FMLCommonSetupEvent event) {
+		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.FOREST);
 	}
 }

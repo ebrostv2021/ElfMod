@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "elfworld:block/nether_biome_portal_ew"
+    },
+    "axis=x": {
+      "model": "elfworld:block/nether_biome_portal_ns"
+    }
+  }
+}

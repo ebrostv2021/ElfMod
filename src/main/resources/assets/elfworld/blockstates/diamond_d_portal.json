@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "elfworld:block/diamond_d_portal_ew"
+    },
+    "axis=x": {
+      "model": "elfworld:block/diamond_d_portal_ns"
+    }
+  }
+}
