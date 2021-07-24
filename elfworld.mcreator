@@ -986,19 +986,6 @@
       "path": "~/Prozedur/Biome/Diamond Dimension"
     },
     {
-      "name": "NetherBiome",
-      "type": "dimension",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "nether_biome",
-      "metadata": {
-        "ep": true
-      },
-      "path": "~/Prozedur/Biome/Diamond Dimension"
-    },
-    {
       "name": "Creepey",
       "type": "mob",
       "sortid": 105,
@@ -1006,6 +993,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creepey",
+      "path": "~/Entitys"
+    },
+    {
+      "name": "Zwerg",
+      "type": "mob",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zwerg",
       "path": "~/Entitys"
     }
   ],
@@ -1033,10 +1030,10 @@
       "item.elfworld.dwarfs_armor_boots": "Dwarfs Boots",
       "fluid.elf_water": "ElfWater",
       "block.elfworld.elf_wood_door": "Eleven Wood Door",
-      "block.elfworld.elf_wood_stairs": "Eleven Wood Stairs",
       "item.elfworld.elf_plate_boots": "Eleven Gold Boots",
-      "item.elfworld.elf_axe": "Eleven Gold Axe",
+      "block.elfworld.elf_wood_stairs": "Eleven Wood Stairs",
       "block.elfworld.pixie_block": "Block of Pixie",
+      "item.elfworld.elf_axe": "Eleven Gold Axe",
       "item.elfworld.elf_gold": "Eleven Gold Ingot",
       "block.elfworld.elf_wood_wood": "Eleven Wood Wood",
       "block.elfworld.elf_wood_fence_gate": "Eleven Wood Fence Gate",
@@ -1051,6 +1048,7 @@
       "item.elfworld.dwarfs_hoe": "Dwarfs Hoe",
       "biome.elfworld.elven_biome": "Eleven Biome",
       "block.elfworld.pixie_ore": "Pixie Ore",
+      "item.elfworld.zwerg_spawn_egg": "Zwerg Spawn Egg",
       "item.elfworld.elf_shovle": "Eleven Gold Shovle",
       "item.elfgirl.elfmusic.desc": "Eleven Music",
       "entity.elfworld.elf": "Eleven Girl",
@@ -1064,7 +1062,6 @@
       "item.elfgirl.elf_sword": "Eleven Gold Sword",
       "item.elfgirl.elf_hoe": "Eleven Gold Hoe",
       "block.elfworld.elf_wood_planks": "Eleven Wood Planks",
-      "item.elfworld.nether_biome": "Diamond D Portal Igniter",
       "block.elfworld.dwarfs_block": "Block of Dwarfs Ingot",
       "item.elfworld.elf_hoe": "Eleven Gold Hoe",
       "item.elfworld.elf_sword": "Eleven Gold Sword",
@@ -1084,11 +1081,12 @@
       "item.elfworld.dwarfs_armor_helmet": "Dwarfs Helmet",
       "item.elfworld.creepey_spawn_egg": "Creepey Spawn Egg",
       "item.elfworld.pixie": "Pixie Gem",
-      "itemGroup.tabdiamond_ta": "Dimension (only Creativ)",
-      "itemGroup.tabelfgirl": "Eelven Forest",
+      "itemGroup.tabdiamond_ta": "Diamension (only Creativ)",
+      "itemGroup.tabelfgirl": "Eleven Forest",
       "item.elfgirl.elf_pickaxe": "Eleven Gold Pickaxe",
       "itemGroup.tabdwarf_mountain": "Dwarf Mountain",
       "item.elfworld.diamond_d": "Diamond D Portal Igniter",
+      "entity.elfworld.zwerg": "Zwerg",
       "item.elfgirl.elf_axe": "Eleven Gold Axe",
       "item.elfworld.elf_plate_leggings": "Eleven Gold Leggins",
       "block.elfworld.elf_wood_log": "Eleven Wood Log",
