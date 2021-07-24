@@ -101,13 +101,19 @@ public class PixieOreBlock extends ElfworldModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
+					if (dimensionType == World.OVERWORLD)
+						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("elfworld:alfheim")))
+						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("elfworld:diamond_d")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(63)
-					.square().func_242731_b(11);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(52)
+					.square().func_242731_b(15);
 			event.getRegistry().register(feature.setRegistryName("pixie_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("elfworld:pixie_ore"), configuredFeature);
 		}
